@@ -1,0 +1,41 @@
+{
+    "name": "vamtiger-get-local-stylesheet-links",
+    "version": "0.0.1",
+    "description": "Get an array of local stylesheet links for defined HTML document text.",
+    "main": "build",
+    "scripts": {
+        "test": "mocha build/test --recursive",
+        "build": "tsc",
+        "commit": "vamtigerNodeTypescriptCommit --push --publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vamtiger-project/vamtiger-get-local-stylesheet-links.git"
+    },
+    "keywords": [
+        "vamtiger",
+        "local",
+        "stylesheet",
+        "link"
+    ],
+    "author": "Vamtiger Immortalles",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vamtiger-project/vamtiger-get-local-stylesheet-links/issues"
+    },
+    "homepage": "https://github.com/vamtiger-project/vamtiger-get-local-stylesheet-links#readme",
+    "types": "build/index.d.ts",
+    "devDependencies": {
+        "@types/chai": "^4.1.3",
+        "@types/mocha": "^5.2.1",
+        "@types/node": "^10.3.2",
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0",
+        "typescript": "^2.9.1",
+        "vamtiger-node-typescript-commit": "0.0.51"
+    },
+    "dependencies": {
+        "vamtiger-get-stylesheet-paths": "0.0.3",
+        "vamtiger-is-remote-url": "0.0.3"
+    }
+}

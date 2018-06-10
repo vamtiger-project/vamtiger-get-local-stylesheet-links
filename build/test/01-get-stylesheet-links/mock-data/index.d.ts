@@ -1,0 +1,2 @@
+declare const _default: "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>\n        Some HTML Title\n    </title>\n    <link href=\"https://remote/stylesheet/link/index.css\" rel=\"stylesheet\">\n    <link href=\"local/stylesheet/link/index.css\" rel=\"stylesheet\">\n</head>\n<body>\n    <div>\n        Some HTML body inner HTML\n    </div>\n</body>\n</html>";
+export default _default;
