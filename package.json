@@ -1,6 +1,6 @@
 {
-    "name": "vamtiger-get-local-stylesheet-links",
-    "version": "0.0.2",
+    "name": "vamtiger-get-local-stylesheet-paths",
+    "version": "0.0.3-0",
     "description": "Get an array of local stylesheet links for defined HTML document text.",
     "main": "build",
     "scripts": {
